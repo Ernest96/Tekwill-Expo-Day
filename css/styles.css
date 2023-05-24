@@ -6600,6 +6600,9 @@ fieldset:disabled .btn {
    .modal-fullscreen-xxl-down .modal-footer {
       border-radius: 0;
    }
+
+  
+   
 }
 
 .tooltip {
@@ -8843,6 +8846,14 @@ fieldset:disabled .btn {
    padding-top: 0px;
 }
 
+
+#companii {
+   background-color: #191919;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%23935584'/%3E%3Cstop offset='1' stop-color='%2303B7FF'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%2300ADBB'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='4.619999999999999'%3E%3Cpath transform='translate(-245 0) rotate(-15 1409 581) scale(0.77)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='1.54' transform='translate(-350 200) rotate(10 800 450) scale(0.0)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(20 -150) rotate(50 401 736) scale(0.0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='1.4'%3E%3Cpath transform='translate(1200 20) rotate(-5 150 345) scale(0.9900000000000001)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='1.08' transform='translate(-815 -220)' x='1039' y='709' width='20' height='20'/%3E%3Cpath transform='translate(-560 160) scale(0.5)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+   background-attachment: fixed;
+   background-size: cover;
+}
+
 .container-front {
    position: relative;
    z-index: 2;
@@ -8852,8 +8863,7 @@ fieldset:disabled .btn {
    height: 15rem;
    position: absolute;
    width: 100%;
-   filter: blur(1px);
-   background: linear-gradient(180deg, #191919 30%, #19191919);
+   background: linear-gradient(180deg, #191919, #19191919);
    top: -3px;
 }
 
@@ -8861,8 +8871,7 @@ fieldset:disabled .btn {
    height: 15rem;
    position: absolute;
    width: 100%;
-   filter: blur(1px);
-   background: linear-gradient(180deg, #19191919 30%, #191919);
+   background: linear-gradient(180deg, #19191919, #191919);
    bottom: -3px;
 }
 
@@ -12342,8 +12351,9 @@ p {
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
    font-size: 2.5rem;
-   margin-top: 0;
-   margin-bottom: 1rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+
 }
 
 .page-section h3.section-subheading,
@@ -13390,19 +13400,12 @@ body {
    margin-bottom: 20px;
 }
 
-.agenda-card-sesiuni {
-
-
-   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-
-
-}
 
 .glass-card {
 
-   background: rgba(44, 44, 44, 0.7);
-   backdrop-filter: blur(5px);
-   -webkit-backdrop-filter: blur(5px);
+   background: rgba(44, 44, 44, 0.3);
+   backdrop-filter: blur(8px);
+   -webkit-backdrop-filter: blur(8px);
    padding: 20px 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -13719,7 +13722,67 @@ body {
    margin-top: -15px;
 }
 
+.zone-container {
+   margin-bottom: 25px;
+}
 
+.zone-container:last-of-type {
+   margin-bottom: 0px;
+}
+
+.zone-container h2, .zone-container h5 {
+   margin-bottom: 20px;
+
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   display: inline-block;
+}
+
+#edtech-zone h2,  #edtech-zone h5{
+   background-image: linear-gradient(180deg, #ffffff, #e998d6);
+}
+
+#fintech-zone h2, #fintech-zone h5 {
+   background-image: linear-gradient(180deg, #ffffff, #a0ffdb);
+}
+
+#gov-zone h2, #gov-zone h5 {
+   background-image: linear-gradient(180deg, #ffffff, #7dd9ff);
+}
+
+#arvr-zone h2, #arvr-zone h5 {
+   background-image: linear-gradient(180deg, #ffffff, #ffba7d);
+}
+
+.zone-container .company img {
+   height: 65px;
+}
+
+
+
+.company {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   height: 200px;
+   padding-top: 35px;
+   gap: 20px;
+}
+
+#edtech-zone .company  {
+   overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+   .zone-container .company img {
+      height: 55px;
+   }
+}
 
 @media (max-width: 1200px) {
    .timeline-body>p {
@@ -13730,6 +13793,10 @@ body {
       height: 35vw;
       width: 100%;
       object-fit: cover;
+   }
+
+   .zone-container .company img {
+      height: 45px;
    }
 
 }
@@ -13921,8 +13988,17 @@ body {
    }
 
    #about,
-   #agenda {
+   #agenda,
+   #companii {
       background-size: auto;
+   }
+
+   .zone-container .company img {
+      height: 40px;
+   }
+
+   .company {
+      height: 160px;
    }
 
 }
