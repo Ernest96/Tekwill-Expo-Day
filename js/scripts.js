@@ -1,7 +1,7 @@
 AOS.init({
     duration: 350,
     once: true,
-    offset: 100
+    offset: 200
 });
 
 const matches = document.querySelectorAll(".counter-val");
@@ -14,7 +14,7 @@ setTimeout(function () {
         }
         x.innerHTML = maxCount;
     })
-}, 2800);
+}, 2700);
 
 
 var _____WB$wombat$assign$function_____ = function (name) { return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
