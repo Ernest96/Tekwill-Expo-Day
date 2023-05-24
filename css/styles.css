@@ -12975,6 +12975,10 @@ section#contact form#contactForm :-ms-input-placeholder {
    width: 100%;
 }
 
+.map {
+   border-radius: 5px;
+}
+
 @media (max-width:768px) {
    .mapouter {
       position: relative;
