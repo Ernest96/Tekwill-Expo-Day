@@ -1915,6 +1915,10 @@ header.masthead {
    font-size: 1.2rem;
 }
 
+section#contact {
+   padding-bottom: 0rem;
+}
+
 section#contact .map-bg{
    background: url("../assets/img/map-image.png");
    background-repeat: no-repeat;
