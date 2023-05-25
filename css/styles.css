@@ -1919,7 +1919,7 @@ section#contact {
    background-repeat: no-repeat;
    background-position: center;
    padding-top: 3rem;
-   padding-bottom: 3rem;
+   padding-bottom: 5rem;
 }
 
 section#contact .section-heading {
@@ -2380,7 +2380,7 @@ body {
    }
 
    .map {
-      height: 320px;
+      height: 330px;
    }
 
 }
