@@ -1918,6 +1918,8 @@ section#contact {
    background: url("../assets/img/map-image.png");
    background-repeat: no-repeat;
    background-position: center;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
 }
 
 section#contact .section-heading {
@@ -1939,10 +1941,12 @@ section#contact .section-heading {
    text-align: center;
    height: 100%;
    width: 100%;
+   margin-top: 1rem;
 }
 
 .map {
    border-radius: 5px;
+   height: 400px;
 }
 
 @media (max-width:768px) {
@@ -1959,7 +1963,6 @@ section#contact .section-heading {
    background: none !important;
    height: 100%;
    width: 100%;
-   ;
 }
 
 @media (max-width:768px) {
@@ -2374,6 +2377,10 @@ body {
 
    .company {
       height: 160px;
+   }
+
+   .map {
+      height: 320px;
    }
 
 }
