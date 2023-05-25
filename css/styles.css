@@ -1919,8 +1919,8 @@ section#contact .map-bg{
    background: url("../assets/img/map-image.png");
    background-repeat: no-repeat;
    background-position: center;
-   padding-top: 3rem;
-   padding-bottom: 3rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
 }
 
 section#contact .section-heading {

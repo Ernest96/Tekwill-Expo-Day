@@ -57,7 +57,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function (obj) { this.__WB_source = obj; r
         if (mainNav) {
             new bootstrap.ScrollSpy(document.body, {
                 target: '#mainNav',
-                offset: 90,
+                offset: 200,
             });
         };
 
