@@ -2166,8 +2166,7 @@ body {
    overflow-x: hidden;
    overflow-y: auto;
    outline: 0;
-   background-color: rgba(0, 0, 0, 0.327);
-   padding: 5% 10% 0% 10%;
+   background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -2189,9 +2188,9 @@ body {
    position: relative;
    padding: 90px 60px 50px 60px;
    border-radius: 30px;
-   width: 100%;
-   max-width: 1000px;
+   max-width: min(1000px, 90%);
    display: block;
+   margin-top: 5%;
    margin-left: auto;
    margin-right: auto;
 }
@@ -2901,15 +2900,9 @@ body {
    }
 
    .modal-dialog {
-      background-color: #252525;
-      position: relative;
       padding: 70px 12px 30px 12px;
-      border-radius: 30px;
+      max-width: unset;
       width: 100%;
-      max-width: 1000px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
    }
 
    .modal-body h2 {
