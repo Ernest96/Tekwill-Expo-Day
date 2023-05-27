@@ -1,7 +1,7 @@
 AOS.init({
     duration: 350,
     once: true,
-    offset: 120
+    offset: 140
 });
 
 const matches = document.querySelectorAll(".counter-val");
