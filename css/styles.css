@@ -2174,7 +2174,7 @@ body {
    position: absolute;
    top: 25px;
    right: 25px;
-   width: 2rem;
+   width: 25px;
    cursor: pointer;
    background-color: transparent;
 }
@@ -2186,7 +2186,7 @@ body {
 .modal-dialog {
    background-color: #252525;
    position: relative;
-   padding: 90px 60px 50px 60px;
+   padding: 60px 60px 50px 60px;
    border-radius: 30px;
    max-width: min(1000px, 90%);
    display: block;
@@ -2900,7 +2900,7 @@ body {
    }
 
    .modal-dialog {
-      padding: 70px 12px 30px 12px;
+      padding: 60px 12px 30px 12px;
       max-width: unset;
       width: 100%;
    }
