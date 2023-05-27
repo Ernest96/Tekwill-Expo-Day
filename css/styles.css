@@ -1980,7 +1980,7 @@ header.masthead {
    padding-bottom: 6rem;
    text-align: center;
    color: #fff;
-   background: linear-gradient(#00071eb1, #535353b1), url("../assets/img/cover.jpg");
+   background: linear-gradient(#00071eb1, #535353b1), url("https://res.cloudinary.com/dywnhpuxz/image/upload/v1685220751/cover_c5vgy9.jpg");
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-position: center center;
