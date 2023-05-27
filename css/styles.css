@@ -2932,11 +2932,11 @@ body {
    
    .timeline-card:nth-child(even) .timeline-bugfix{
       position: absolute;
-    width: calc(50% - 2px);
-    height: calc(100% + -16px);
-    bottom: 6px;
-    right: 0px;
-      border-left: 4px solid var(--bs-dark);
+      width: calc(50% + 2px);
+      height: calc(100% + -16px);
+      bottom: 6px;
+      right: 0px;
+      border-left: 5px solid var(--bs-dark);
    }
    
    .timeline-card:first-child .timeline-bugfix{
