@@ -2949,5 +2949,15 @@ body {
       border-top: 2px solid var(--bs-dark);
    }
 
+   .timeline-card:last-child .timeline-bugfix{
+      position: absolute;
+    width: calc(50% - 3px);
+    height: calc(100%);
+    left: 5px;
+    bottom: -6px;
+    border-right: 2px solid var(--bs-dark);
+    border-bottom: 5px solid var(--bs-dark);
+   }
+
 
 }
