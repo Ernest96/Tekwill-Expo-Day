@@ -2198,6 +2198,26 @@ body {
    overflow-y: scroll;
 }
 
+.modal-dialog::-webkit-scrollbar {
+   width: 8px;
+}
+
+.modal-dialog::-webkit-scrollbar-corner {
+   background: rgba(0, 0, 0, 0);
+}
+
+.modal-dialog::-webkit-scrollbar-thumb {
+   background-color: #555555;
+   border-radius: 16px;
+   border: 2px solid rgba(0, 0, 0, 0);
+   background-clip: content-box;
+}
+
+.modal-dialog::-webkit-scrollbar-track {
+   margin: 19px 0px;
+   background-color: rgba(0, 0, 0, 0);
+}
+
 .modal-body h2 {
    font-size: 1.8rem;
 }
