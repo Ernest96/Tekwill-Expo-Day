@@ -2206,7 +2206,7 @@ body {
 }
 
 .btn-close-modal {
-   margin-top: 30px;
+   margin-top: 20px;
    border: 1px solid gray;
 }
 
@@ -2485,6 +2485,8 @@ body {
    border-radius: 50px;
 }
 
+
+
 .timeline-card:nth-child(odd) {
    padding: 20px 0 15px 30px;
 }
@@ -2496,7 +2498,7 @@ body {
 .timeline-card::before {
    content: "";
    position: absolute;
-   width: calc(50% + 2px);
+   width: calc(50% + 1px);
    border-radius: 20px;
    border: 2px solid transparent;
    background: linear-gradient(45deg, white, #935584, white) border-box;
@@ -2571,6 +2573,10 @@ body {
    text-align: right;
 }
 
+.timeline-text {
+   overflow: hidden;
+}
+
 .timeline-text h4 {
    margin-top: 25px;
 }
@@ -2597,6 +2603,17 @@ body {
 .timeline-card:nth-child(even)>.timeline-info>.timeline-title::before {
    right: -37.5px;
 }
+
+
+.timeline-bugfix {
+
+}
+
+
+
+
+
+
 
 
 
@@ -2854,8 +2871,9 @@ body {
 
    #about,
    #sesiuni,
-   #companii {
-      background-size: auto;
+   #companii,
+   #agenda {
+      background-size: contain;
    }
 
 
@@ -2899,9 +2917,37 @@ body {
    }
 
    .modal-body p {
-      font-size: 0.95rem;
+      font-size: 1rem;
    }
 
+
+   .timeline-card:nth-child(odd) .timeline-bugfix{
+      position: absolute;
+      width: calc(50% - 3px);
+      height: calc(100% - 3px);
+      left: 5px;
+      bottom: 3px;
+      border-right: 2px solid var(--bs-dark);
+   }
+   
+   .timeline-card:nth-child(even) .timeline-bugfix{
+      position: absolute;
+      width: calc(50% - 3px);
+      height: calc(100% + -16px);
+      bottom: 6px;
+      right: 0px;
+      border-left: 2px solid var(--bs-dark);
+   }
+   
+   .timeline-card:first-child .timeline-bugfix{
+      position: absolute;
+      width: calc(50% - 3px);
+      height: calc(100% + 3px);
+      left: 5px;
+      bottom: 3px;
+      border-right: 2px solid var(--bs-dark);
+      border-top: 2px solid var(--bs-dark);
+   }
 
 
 }
