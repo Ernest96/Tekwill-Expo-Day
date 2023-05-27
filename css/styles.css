@@ -2885,13 +2885,21 @@ body {
    .modal-dialog {
       background-color: #252525;
       position: relative;
-      padding: 70px 20px 30px 20px;
+      padding: 70px 12px 30px 12px;
       border-radius: 30px;
       width: 100%;
       max-width: 1000px;
       display: block;
       margin-left: auto;
       margin-right: auto;
+   }
+
+   .modal-body h2 {
+      font-size: 1.4rem;
+   }
+
+   .modal-body p {
+      font-size: 0.95rem;
    }
 
 
