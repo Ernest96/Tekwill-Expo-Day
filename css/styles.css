@@ -495,7 +495,7 @@ iframe {
 }
 
 @media (min-width: 992px) {
-   .timeline-body>p {
+   .intro-body>p {
       font-size: 1.05rem;
    }
 
@@ -2030,7 +2030,7 @@ header.masthead {
    }
 }
 
-.timeline-body>p {
+.intro-body>p {
    font-size: 1.2rem;
 }
 
@@ -2625,7 +2625,7 @@ body {
 }
 
 @media (max-width: 1200px) {
-   .timeline-body>p {
+   .intro-body>p {
       font-size: 1.05rem;
    }
 
@@ -2770,7 +2770,7 @@ body {
       margin-left: 15px;
    }
 
-   .timeline-body>p {
+   .intro-body>p {
       font-size: 0.95rem;
    }
 
