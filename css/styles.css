@@ -2495,7 +2495,7 @@ body {
 
 .timeline {
    background: var(--primary-color);
-   margin: 20px auto;
+   margin: 10px auto 0px auto;
    padding: 20px;
    width: 70%;
 }
@@ -2590,9 +2590,13 @@ body {
    border: 3px solid #935584;
 }
 
+.timeline-clock {
+   font-weight: normal;
+}
 
 .timeline-card:nth-child(even) .timeline-clock {
    text-align: right;
+   
 }
 
 .timeline-text {
