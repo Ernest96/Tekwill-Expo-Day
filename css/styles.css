@@ -2539,6 +2539,11 @@ body {
 
 }
 
+.timeline-card:nth-child(4)::before {
+   background: linear-gradient(90deg, white, #74e8ff, white) border-box !important;
+
+}
+
 .timeline-card:nth-child(odd)::before {
    left: 0px;
    top: -4.5px;
