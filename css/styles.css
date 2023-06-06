@@ -2438,76 +2438,40 @@ body {
 }
 
 .partners-container {
-   justify-content: flex-start;
-   display: flex;
-   position: relative;
-   padding-top: 55px;
-   padding-bottom: 15px;
-   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   width: 100%;
+   align-items: center;
+   margin-bottom: 15px;
    gap: 20px;
+}
+
+#partners h3 {
+   margin-bottom: 15px;
+   margin-top: 40px;
 }
 
 .partner img {
-   height: 90px;
+   max-width: 100%;
+   border-radius: 5px;
+   max-height: 100%;
 }
 
 
+
 .partner {
+   background-color: white;
+   height: 130px;
    display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
+   justify-content: center;
    align-items: center;
-   text-align: center;
-   width: calc(20% - 20px);
-   gap: 20px;
-}
-
-.partner h5,
-.partners-title {
-   background-size: 100%;
-   -webkit-background-clip: text;
-   -moz-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   -moz-text-fill-color: transparent;
-   display: inline-block;
-}
-
-.partner.gold h5,
-.gold .partners-title {
-   background-image:
-      linear-gradient(-72deg,
-         #ffdea1,
-         #ffffff 16%,
-         #ffdea1 21%,
-         #ffffff 24%,
-         #ffdea1 36%,
-         #ffdea1 72%,
-         #ffffff 80%,
-         #ffdea1 84%,
-         #948361);
+   padding: 15px;
+   border-radius: 5px;
 }
 
 
-.partner.silver h5,
-.silver .partners-title {
-   background-image:
-      linear-gradient(-72deg,
-         #d1d1d1,
-         #ffffff 16%,
-         #dedede 21%,
-         #ffffff 24%,
-         #dedede 36%,
-         #ffffff 45%,
-         #ffffff 60%,
-         #dedede 72%,
-         #ffffff 80%,
-         #dedede 84%,
-         #a9a9a9);
-}
 
-.partner {
-   position: relative;
-}
+
 
 .partners-title {
    position: absolute;
@@ -3071,14 +3035,16 @@ body {
       border-bottom: 5px solid var(--bs-dark);
    }
 
+   .partners-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+   }
+
+   
+
    .partner {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: center;
-      width: calc(50% - 20px);
-      gap: 20px;
+      height: 110px;
    }
 
 
