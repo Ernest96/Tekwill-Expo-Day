@@ -2694,7 +2694,14 @@ body {
 
 
 
-
+.timeline-card:first-child .timeline-bugfix {
+   position: absolute;
+   width: calc(50% - 3px);
+   height: calc(100% + 3px);
+   left: 5px;
+   bottom: 3px;
+   border-top: 2px solid var(--bs-dark);
+}
 
 
 
@@ -3004,7 +3011,7 @@ body {
       height: calc(100% - 3px);
       left: 5px;
       bottom: 3px;
-      border-right: 2px solid var(--bs-dark);
+      border-right: 4px solid var(--bs-dark);
    }
 
    .timeline-card:nth-child(even) .timeline-bugfix {
@@ -3030,10 +3037,10 @@ body {
       position: absolute;
       width: calc(50% - 3px);
       height: calc(100%);
-      left: 5px;
-      bottom: -6px;
-      border-right: 2px solid var(--bs-dark);
-      border-bottom: 5px solid var(--bs-dark);
+      right:  6px;
+      bottom: -5px;
+      border-left: 4px solid var(--bs-dark);
+      border-bottom: 7px solid var(--bs-dark);
    }
 
    .partners-container {
