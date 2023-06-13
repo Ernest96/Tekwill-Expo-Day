@@ -1989,7 +1989,7 @@ header.masthead {
    padding-bottom: 6rem;
    text-align: center;
    color: #fff;
-   background: linear-gradient(#00071eb1, #535353b1), url("https://res.cloudinary.com/dywnhpuxz/image/upload/v1685220751/cover_c5vgy9.jpg");
+   background: linear-gradient(#00071eb1, #535353b1), url("../assets/img/cover.jpg");
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-position: center center;
@@ -2345,10 +2345,11 @@ body {
 }
 
 .expo-video {
-   max-width: 100%;
+   width: 100%;
    border-radius: 10px;
    box-shadow: #e9b3dd2b 0px 0px 35px 5px;
    margin-left: 30px;
+   aspect-ratio: 16 / 9;
 }
 
 .counters-container {
