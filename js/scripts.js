@@ -6,7 +6,7 @@ AOS.init({
 
 const matches = document.querySelectorAll(".counter-val");
 
-setTimeout(function () {
+setTimeout(function (){
     matches.forEach(x => {
         let maxCount = x.getAttribute('data-value');
         if (maxCount.length > 3) {
