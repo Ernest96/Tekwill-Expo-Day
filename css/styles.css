@@ -3032,7 +3032,7 @@ body {
       border-top: 2px solid var(--bs-dark);
    }
 
-   .timeline-card:last-child .timeline-bugfix {
+   /* .timeline-card:last-child .timeline-bugfix {
       position: absolute;
       width: calc(50% - 3px);
       height: calc(100%);
@@ -3040,7 +3040,7 @@ body {
       bottom: -5px;
       border-left: 4px solid var(--bs-dark);
       border-bottom: 7px solid var(--bs-dark);
-   }
+   } */
 
    .partners-container {
       display: grid;
