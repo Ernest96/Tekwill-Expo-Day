@@ -1928,7 +1928,7 @@ p {
 
 #mainNav .navbar-nav .nav-item .nav-link {
 
-   font-size: 1.1rem;
+   font-size: 1.05rem;
    color: #fff;
    letter-spacing: 0.0625em;
    transition: font-size 0.3s;
@@ -1936,7 +1936,7 @@ p {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-   color: #7dd9ff;
+   color: #e9b3dd;
 }
 
 @media (min-width: 992px) {
@@ -1952,7 +1952,7 @@ p {
    }
 
    #mainNav .navbar-brand img {
-      height: 5rem;
+      height: 4.5rem;
       transition: height 0.3s ease-in-out;
    }
 
@@ -1989,7 +1989,7 @@ header.masthead {
    padding-bottom: 6rem;
    text-align: center;
    color: #fff;
-   background: linear-gradient(#00071eb1, #535353b1), url("../assets/img/cover.jpg");
+   background: linear-gradient(#00071eb1, #535353b1), url("../assets/img/cover.png");
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-position: center center;
@@ -2265,6 +2265,7 @@ body {
 .intro-text {
    margin-bottom: 60px;
    filter: drop-shadow(10px 30px 34px #010e3d);
+   margin-top: 15px;
 }
 
 .a-inscrie {
@@ -2499,9 +2500,9 @@ body {
    bottom: 0;
    left: 0;
    width: 100%;
-   min-height: 70px;
+   min-height: 90px;
    max-height: 130px;
-   background: rgba(44, 44, 44, 0.3);
+   background: rgba(26, 26, 26, 0.669);
    backdrop-filter: blur(7px);
    -webkit-backdrop-filter: blur(7px);
    border-bottom-left-radius: 10px;
@@ -2520,7 +2521,7 @@ body {
 }
 
 .speaker-title h6 {
-   font-size: 0.75rem;
+   font-size: 0.85rem;
    margin-bottom: 1px;
 }
 
@@ -2542,7 +2543,7 @@ body {
 
 .session-card h4:hover,
 .session-card h4:focus {
-   color: #afafaf;
+   color: #fcd0f0;
 }
 
 
@@ -2928,7 +2929,7 @@ body {
    }
 
    .speaker-title h6 {
-      font-size: 0.75rem;
+      font-size: 0.9rem;
    }
 
    #speakers .col-6 {

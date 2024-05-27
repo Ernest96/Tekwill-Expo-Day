@@ -6,15 +6,15 @@ AOS.init({
 
 const matches = document.querySelectorAll(".counter-val");
 
-setTimeout(function (){
-    matches.forEach(x => {
-        let maxCount = x.getAttribute('data-value');
-        if (maxCount.length > 3) {
-            maxCount = maxCount[0] + "," + maxCount.slice(1, maxCount.length);
-        }
-        x.innerHTML = maxCount;
-    })
-}, 2700);
+// setTimeout(function (){
+//     matches.forEach(x => {
+//         let maxCount = x.getAttribute('data-value');
+//         if (maxCount.length > 3) {
+//             maxCount = maxCount[0] + "," + maxCount.slice(1, maxCount.length);
+//         }
+//         x.innerHTML = maxCount;
+//     })
+// }, 2700);
 
 
 var _____WB$wombat$assign$function_____ = function (name) { return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
