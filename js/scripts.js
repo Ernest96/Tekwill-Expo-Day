@@ -1,8 +1,13 @@
-AOS.init({
+
+
+window.onload = function () {
+    document.body.style.display = 'block';
+    AOS.init({
     duration: 350,
     once: true,
     offset: 140
 });
+};
 
 const matches = document.querySelectorAll(".counter-val");
 
