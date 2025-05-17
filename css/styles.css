@@ -1220,6 +1220,33 @@ iframe {
    margin-bottom: 0px;
 }
 
+.participants {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 50px;
+}
+
+.participant {
+   width: calc(20% - 50px);
+   text-align: center;
+}
+
+.participant.white {
+   background-color: white;
+   border-radius: 10px;
+}
+
+.participant img {
+   max-width: 100%;
+   height: 200px;
+   object-fit: contain;
+}
+
+#tekwill-logo {
+   height: 180px;
+}
+
 .accordion-item {
    margin-bottom: 0px !important;
    border-radius: 0px !important;
@@ -2972,6 +2999,10 @@ body {
       font-size: 2rem;
    }
 
+   .participant {
+      width: calc(25% - 50px);
+      text-align: center;
+   }
 
 }
 
@@ -3188,9 +3219,24 @@ body {
       margin-top: 20px;
    }
 
+   .participant {
+      width: calc(50% - 50px);
+      text-align: center;
+   }
+
+   .participant img {
+      height: 140px;
+   }
+
+   #tekwill-logo {
+      height: 130px;
+   }
+
 }
 
 @media (max-width: 765px) {
+
+   
 
    .expectations-card {
       width: calc(100%);
